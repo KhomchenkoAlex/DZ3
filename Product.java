@@ -26,6 +26,6 @@ public class Product {
     }
 
     public void showProduct(){
-         System.out.format("Название - %s цена - %.3f количество - %d %n", name, price, quantity);
+         System.out.format("Name of product - %s price - %.3f quantity - %d %n", name, price, quantity);
      }
 }

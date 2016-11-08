@@ -34,11 +34,11 @@ public class Main {
                     S.showTheStorage();
                     break;
                 case 3:
-                    System.out.println("Enter the name of product:");
+                    System.out.println("Please, enter the name of product:");
                     System.out.println(S.calculateCostOf(S.inputName()));
                     break;
                 case 4:
-                    System.out.println("Enter the name of product:");
+                    System.out.println("Please, enter the name of product:");
                     System.out.println(S.calculateAmountOf(S.inputName()));
                     break;
             }
