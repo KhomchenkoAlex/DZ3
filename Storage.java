@@ -28,7 +28,7 @@ public class Storage {
     double calculateCostOf(String s){
         double cost = 0;
         for(Product i: productlist){
-            if(i.getName().equals(s))
+            if(i.getName().equalsIgnoreCase(s))
                 cost += (i.getPrice()*i.getQuantity());
             }
         return cost;
