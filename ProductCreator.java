@@ -11,19 +11,19 @@ public class ProductCreator {
     Scanner inQuantity = new Scanner(System.in);
 
     String inputName(){
-        System.out.println("Введите название продукта:");
+        System.out.println("Please, enter the name of product:");
         String name = inName.nextLine();
         return name;
     }
 
     float inputPrice(){
-        System.out.println("Введите цену продукта:");
+        System.out.println("Please, enter the price of product:");
         float price = inPrice.nextFloat();
         return price;
     }
 
     int inputQuantity(){
-        System.out.println("Введите количество продукта:");
+        System.out.println("Please, enter the quantity of product:");
         int quantity = inQuantity.nextInt();
         return quantity;
     }
