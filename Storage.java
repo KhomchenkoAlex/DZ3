@@ -11,14 +11,15 @@ public class Storage {
     LinkedList<Product> productlist = new LinkedList<Product>();
 
     void initStorage() {
-        productlist.add(new Product("Spam", 47, 3));
-        productlist.add(new Product("Beer", 18, 5));
-        productlist.add(new Product("Chips", 21, 2));
+        productlist.add(new Product("Spam", 50, 1));
+        productlist.add(new Product("Beer", 15, 1));
+        productlist.add(new Product("Chips", 20, 1));
     }
 
     void addProductToStorage(Product e){
         productlist.add(e);
     }
+
     String inputName(){
         Scanner inName = new Scanner(System.in);
         String name = inName.nextLine();
