@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         ProductCreator PC = new ProductCreator();
         Storage S = new Storage();
@@ -23,7 +23,7 @@ public class Main {
                             "4. Calculate the quantity of the chosen product in the storage\n" +
                             "0.Exit\n");
 
-            switch (in.nextInt()) {
+            switch (input.nextInt()) {
                 case 0:
                     System.exit(0);
                     break;
@@ -34,11 +34,11 @@ public class Main {
                     S.showTheStorage();
                     break;
                 case 3:
-                    System.out.println("Enter the name of product:");
+                    System.out.println("Please, enter the name of product:");
                     System.out.println(S.calculateCostOf(S.inputName()));
                     break;
                 case 4:
-                    System.out.println("Enter the name of product:");
+                    System.out.println("Please, enter the name of product:");
                     System.out.println(S.calculateAmountOf(S.inputName()));
                     break;
             }

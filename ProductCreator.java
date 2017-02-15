@@ -6,25 +6,24 @@ import DZ3.Product;
 import java.util.*;
 
 public class ProductCreator {
-    Scanner inName = new Scanner(System.in);
-    Scanner inPrice = new Scanner(System.in);
-    Scanner inQuantity = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
+
 
     String inputName(){
-        System.out.println("Введите название продукта:");
-        String name = inName.nextLine();
+        System.out.println("Please, enter the name of product:");
+        String name = input.nextLine();
         return name;
     }
 
     float inputPrice(){
-        System.out.println("Введите цену продукта:");
-        float price = inPrice.nextFloat();
+        System.out.println("Please, enter the price of product:");
+        float price = input.nextFloat();
         return price;
     }
 
     int inputQuantity(){
-        System.out.println("Введите количество продукта:");
-        int quantity = inQuantity.nextInt();
+        System.out.println("Please, enter the quantity of product:");
+        int quantity = input.nextInt();
         return quantity;
     }
 
